@@ -7,6 +7,26 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
+## Description
+
+The package contains functions that can convert a DNA base sequence to corresponding RNA sequence, and finally the corresponding amino acid chain. In this way, a DNA sequence of any length can be converted to its corresponding protein quickly and easily.
+
+The package consists of the following five functions:
+
+### Function 1: create_DNA
+
+Creates a DNA sequence of a given length. The input is the wanted length of the DNA sequence (number of bases). The output is a string of letters of the four bases in DNA; T, A, G, and C.
+
+### Function 2: DNA_to_RNA
+
+Converts a given DNA string consisting of the letters T, A, G, and C, to the corresponding RNA sequence. This is done by substituting all instances of the letter "T" with "U". The input is a DNA string. The output is a string of letters that are the bases of the RNA sequence.
+
+### Function 3: 
+
+### Function 4: 
+
+### Function 5: 
+
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
