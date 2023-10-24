@@ -20,17 +20,14 @@ aa_distribution_plot <- function(aa_seq){
     stringr::str_split(pattern = stringr::boundary("character"), simplify = TRUE) |>
     as.character() |>
     unique()
-  print(present_aa)
 
   # Count the number of occurences for each of the present amino acids
   counts <- sapply(present_aa, function(amino_acid) stringr::str_count(string = aa_seq, pattern =  amino_acid)) |>
     as.data.frame()
-  print(counts)
 
   # Rename columns
   colnames(counts) <- c("Counts")
   counts[["amino_acids"]] <- rownames(counts)
-  print(counts)
 
   # Plot the amino acid distribution
   aa_plot <- counts |>
