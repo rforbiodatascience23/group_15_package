@@ -2,3 +2,5 @@
 
 export(codons_extraction)
 export(hello)
+export(aa_translation)
+
