@@ -16,17 +16,17 @@ knitr::opts_chunk$set(
 # biocd
 
 <!-- badges: start -->
-[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
 The goal of biocd is to ...
 
 ## Installation
 
-You can install the development version of biocd like so:
+You can install the development version of biocd from [GitHub](https://github.com/) with:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+# install.packages("devtools")
+devtools::install_github("rforbiodatascience23/group_15_package")
 ```
 
 ## Example
