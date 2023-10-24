@@ -15,3 +15,5 @@ aa_translation <- function(codons){
   return(aa_seq)
 }
 
+
+
